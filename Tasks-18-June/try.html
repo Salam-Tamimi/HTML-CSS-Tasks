@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+
+    <!--form #1-->
+    <form method="post"> 
+<fieldset>
+    <label for="email">Enter your Email</label> <br>
+    <input type="email" name="Enter your Email" id="email" required placeholder="Enter your Email"> <br>
+    <label for="password">Password</label> <br>
+    <input type="password" name="password" id="password" required placeholder="Enter your password"> <br>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male" value="male" > <br>
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female" value="female">  
+</fieldset> <br>
+     </form>
+
+
+<!--radio-->
+ <fieldset>
+     <p>Choose your favorite car:</p> 
+    <form target="_blank">
+<label for="car1">Mercedece</label> 
+<input type="radio" name="car" id="car1"> <br>
+<label for="car2">Ford fusion</label> 
+<input type="radio" name="car" id="car2"> <br>
+<label for="car3">BMW</label> 
+<input type="radio" name="car" id="car3"><br>
+<label for="car4">KIA</label> 
+<input type="radio" name="car" id="car4"><br>
+<input type="submit" value="Subscribe">
+    </form>
+</fieldset> <br>
+
+<!--checkbox-->
+    <fieldset>
+    <p>Choose your favorite car/cars:</p> <br>
+    <form>
+        <label for="car1">Mercedece</label> 
+        <input type="checkbox" name="Mercedece" id="car1"> <br>
+        <label for="car2">Ford fusion</label> 
+        <input type="checkbox" name="ford fusion" id="car2"> <br>
+        <label for="car3">BMW</label> 
+        <input type="checkbox" name="BMW" id="car3"><br>
+        <label for="car4">KIA</label> 
+<input type="checkbox" name="KIA" id="car4"><br>
+<input type="submit" value="submit">
+    </form> 
+    </fieldset> <br>
+
+<!--disabled & multiple attributes:-->
+<fieldset>
+<form>
+    <label for="country">Jordan</label>
+    <input type="" id="country" name="country" value="Jordan" disabled> <br>
+    <label for="date" name="date" >date</label>
+    <input type="date" id="date" name="date">
+    <label for="images">images</label> <br>
+    <input type="file" name="images" id="images" multiple>
+ 
+</form> 
+</fieldset> <br>
+
+
+<!--select element-->
+<fieldset>
+<label for="names">Names</label>
+<select name="names" id="names">
+    <option value="lina">lina</option>
+    <option value="ola">lina</option>
+    <option value="omar">omar</option>
+    <option value="ahmad">ahmad</option>
+    <option value="seleen" selected>seleen</option>
+</select> 
+</fieldset> <br>
+
+<!--select element size 2-->
+<fieldset>
+<label for="names">Names</label>
+<select name="names" id="names" size="2">
+    <option value="lina">lina</option>
+    <option value="ola">lina</option>
+    <option value="omar">omar</option>
+    <option value="ahmad">ahmad</option>
+    <option value="seleen">seleen</option>
+</select> 
+</fieldset>
+<br>
+
+<!--text area-->
+<fieldset>
+<p>write about your self:</p>
+<form>
+    <textarea name="about" id="about" cols="40" rows="10" value="about" >about</textarea>
+    <input type="submit" value="submit">
+</form>
+</fieldset>
+
+<audio src="YTMp3_YTMP3WEB_v4.4.1.mp3" controls type="mp3">Play mp3</audio> <br>
+
+<!--video-->
+<video src="video - final phase 2 design 5 -.mp4" type="mp4" width="550" controls>Video</video>
+<br>
+
+
+<!--iframe-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3wstcI4Q6oE" title="3D design video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
