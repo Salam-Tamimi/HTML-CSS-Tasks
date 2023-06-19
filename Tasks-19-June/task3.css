@@ -1,0 +1,15 @@
+h1 {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

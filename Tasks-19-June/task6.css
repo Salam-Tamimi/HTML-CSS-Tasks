@@ -1,0 +1,30 @@
+h2 {
+    font-size: 25;
+    }
+    
+    .main {
+        background-color: antiquewhite;
+    }
+    
+    .box1 {
+        background-color: rgb(255, 255, 255);
+        border: solid rgb(173, 163, 163) 2px;
+      padding: 10px;
+    }
+    
+    .box2 {
+        background-color: rgb(255, 255, 255);
+        border: dashed rgb(62, 60, 60) 2px;
+        padding: 10px;
+    }
+    
+    .box3 {
+        color: red;
+        background-color: rgb(255, 255, 255);
+        border: dashed red 2px;
+        padding: 10px;
+    }
+    
+    .p3 {
+        border: dashed rgb(201, 39, 39) 2px;
+    }
