@@ -1,0 +1,33 @@
+p{
+    margin:0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.red {
+    background-color: red;
+}
+.green1 {
+    background-color: green;
+    position: static;
+}
+
+.green2 {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.green3 {
+    background-color: green;
+    position:absolute ;
+    top: 420px;
+    left: 25px;
+}
+
+.text1 {
+    height: 25px;
+}

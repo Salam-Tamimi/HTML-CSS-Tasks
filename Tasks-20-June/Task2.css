@@ -1,0 +1,55 @@
+.all {
+    margin: 10px;
+}
+.paragraph1 {
+         display: inline-block;
+         width: 450px;
+         height: 650px ;
+         border: 2px rgb(154, 149, 149) solid;
+         font-size: 20px;
+         position: relative;
+        
+        
+}
+
+.paragraph2 {
+    display: inline-block;
+    width: 450px;
+    height: 650px ;
+    border: 2px rgb(154, 149, 149) solid;
+    font-size: 20px;
+    position: absolute;
+    left: 500px;
+}
+
+.paragraph3 {
+    display: inline-block;
+    width: 450px;
+    height: 650px ;
+    border: 2px rgb(154, 149, 149) solid;
+    font-size: 20px;
+    position: absolute;
+    left: 980px;
+   
+}
+
+
+h2 {
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+p {
+    padding-bottom: 66px;
+    padding-left: 10px;
+}
+
+footer {
+    padding: 10px 10px;
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+
+.text {
+    padding-bottom: 0px;
+}

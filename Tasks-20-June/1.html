@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        p{
+            margin:0;
+            padding: 1px;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
+
+        .abs {
+            position: relative;
+        }
+        .rel {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- position static -->
+    <h1>position static</h1>
+    <div style="border: 2px dashed; width: fit-content;">
+    <p style="background-color:red;">one</p>
+    <p style="background-color:green;">two</p>
+    <p style="background-color:red;">three</p>
+    <p style="background-color:red;">four</p>
+    </div>
+    <!-- position relative -->
+    <h1>position relative</h1>
+    <div class="rel" style="border: 2px dashed; width: fit-content;">
+    <p style="background-color:red;">one</p>
+    <p style="background-color:green; position:relative; top: 20px; left: 20px; ">two</p>
+    <p style="background-color:red;">three</p>
+    <p style="background-color:red;">four</p>
+    </div>
+    <!-- position absolute -->
+    <h1>position absolute</h1>
+    <div class="abs" style="border: 2px dashed; width: fit-content;">
+    <p style="background-color:red;">one</p>
+    <p style="background-color:green; position:absolute; left: 10px; top: 10px;">two</p>
+    <p style="background-color:red;">three</p>
+    <p style="background-color:red;">four</p>
+    </div>
+</body>
+</html>

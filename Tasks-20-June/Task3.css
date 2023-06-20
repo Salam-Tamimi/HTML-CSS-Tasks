@@ -1,0 +1,13 @@
+h1{
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    position: fixed;
+    left: 1300px;
+    border: 2px black solid;
+}

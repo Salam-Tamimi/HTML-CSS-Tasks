@@ -1,0 +1,18 @@
+p {
+    font-size: 50px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding-top: 120px;
+}
+
+sup {
+font-size: 15px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    margin-top: 200px ;
+    margin-left: 600px ;
+}
