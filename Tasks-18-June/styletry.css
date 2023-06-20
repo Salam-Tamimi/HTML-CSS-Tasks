@@ -1,0 +1,58 @@
+h1 {
+    text-align: center; 
+    color: brown;
+    background-color: rgb(234, 234, 199,.5);
+    border: .1;
+    border-color: rgb(170, 135, 135);
+    border-style:groove;
+}
+
+
+.form1 {
+    background-image: url(wavy-background-with-copy-space_52683-65230.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x; */
+    border-style: dotted;
+    }
+
+
+.box1 {
+    margin: 20px; 
+}
+
+.form2 {
+    background-color: rgb(127, 180, 152);
+    /* opacity: .5; */
+}
+
+
+
+.form2 label{
+    color: rgb(255, 208, 0);
+}
+
+
+
+#car1 {
+    color: brown;
+}
+
+
+.submit {
+    background-color: blueviolet;
+}
+.table {
+    background-color: blueviolet;
+    border: .2;
+    border-color: black;   
+}
+
+.table tr:nth-child(even) {
+    background-color: rgb(196, 168, 221);
+}
+thead {
+    background-color:  rgb(196, 168, 221);
+}
+

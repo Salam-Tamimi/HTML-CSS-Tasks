@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form </title>
+    <link rel="stylesheet" href="styletry.css">
 </head>
 <body>
+<h1> Forms & css styling </h1> <br>
+
 
     <!--form #1-->
-    <form method="post"> 
-<fieldset>
+    <form method="post" class="form1"> 
+<div class=box1>
     <label for="email">Enter your Email</label> <br>
     <input type="email" name="Enter your Email" id="email" required placeholder="Enter your Email"> <br>
     <label for="password">Password</label> <br>
@@ -18,12 +21,12 @@
     <input type="radio" name="gender" id="male" value="male" > <br>
     <label for="female">female</label>
     <input type="radio" name="gender" id="female" value="female">  
-</fieldset> <br>
+</div>
      </form>
-
+     <br>
 
 <!--radio-->
- <fieldset>
+ <fieldset class="form2">
      <p>Choose your favorite car:</p> 
     <form target="_blank">
 <label for="car1">Mercedece</label> 
@@ -41,19 +44,95 @@
 <!--checkbox-->
     <fieldset>
     <p>Choose your favorite car/cars:</p> <br>
-    <form>
-        <label for="car1">Mercedece</label> 
+ <form class="form">
+    <div class="cars">
+        <label for="car1" id="car1">Mercedece</label> 
         <input type="checkbox" name="Mercedece" id="car1"> <br>
         <label for="car2">Ford fusion</label> 
         <input type="checkbox" name="ford fusion" id="car2"> <br>
         <label for="car3">BMW</label> 
         <input type="checkbox" name="BMW" id="car3"><br>
         <label for="car4">KIA</label> 
-<input type="checkbox" name="KIA" id="car4"><br>
-<input type="submit" value="submit">
-    </form> 
+        <input type="checkbox" name="KIA" id="car4"><br>
+    </div> <br>
+        <input type="submit" value="submit" class="submit">
+</form> 
     </fieldset> <br>
 
+
+    <Table border=".8" align="center" class="table">
+        <thead>
+
+    <tr style="text-align: center;">
+    
+    <td> Day/Period</td> 
+    <td>I <br> 9:30-10:20</td> 
+    <td>II <br> 10:20-11:10</td> 
+    <td>III <br> 11:10-12:00</td> 
+    <td>12:00-12:40</td> 
+    <td>IV <br> 12:40-1:30</td> 
+    <td>V <br> 1:30-2:20</td> 
+    <td>VI <br> 2:20-3:10</td> 
+    <td>VII <br> 3:10-4:00</td> 
+    </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align: center;"> 
+                <td> <b> Monday </b></td>
+                <td> Eng </td>
+                <td> Mat </td>
+                <td> Che </td>
+                <td rowspan="6" style="text-align: center;"> L <br>U <br>N <br>C <br> H </td>
+                <td colspan="2"> LAB </td>
+                <td> Phy </td>
+            </tr>
+<tr style="text-align: center;">
+    <td> <b> Tuseday </b></td>
+    <td colspan="3"> LAB </td>
+    <td> Eng </td>
+    <td> Mat </td>
+    <td> Che </td>
+    <td> SPORTS </td>
+</tr>
+
+<tr style="text-align: center;">
+    <td> <b> Wednesday </b></td>
+    <td> Mat </td>
+    <td> phy </td>
+    <td> Eng </td>
+    <td> Che </td>
+    <td colspan="3"> LIBRARY </td>
+</tr>
+
+<tr style="text-align: center;">
+    <td> <b> Thursday </b></td>
+    <td> Phy </td>
+    <td> Eng </td>
+    <td> Che </td>
+    <td colspan="3"> LAB </td>
+    <td> Mat </td>
+</tr>
+
+<tr style="text-align: center;">
+    <td> <b> Friday </b></td>
+    <td colspan="3"> LAB </td>
+    <td> Mat </td>
+    <td> Che </td>
+    <td> Eng </td>
+    <td> Phy </td>
+</tr>
+
+<tr style="text-align: center;">
+    <td> <b> Saturday </b></td>
+    <td> Eng </td>
+    <td> Che </td>
+    <td> Mat </td>
+    <td colspan="3"> SEMINAR </td>
+    <td> SPORTS </td>
+</tr>
+        </tbody>
+    </Table>
+<br>
 <!--disabled & multiple attributes:-->
 <fieldset>
 <form>
@@ -110,6 +189,7 @@
 
 <!--iframe-->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wstcI4Q6oE" title="3D design video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 </body>
 </html>
