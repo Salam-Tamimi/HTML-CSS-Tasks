@@ -1,0 +1,17 @@
+.contaiter {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    padding: 8px;
+
+}
+
+.t {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    align-items: stretch;
+    width: 1000px;
+    text-align: center;
+}
+

@@ -4,10 +4,8 @@
 .paragraph1 {
          display: inline-block;
          width: 450px;
-         height: 650px ;
          border: 2px rgb(154, 149, 149) solid;
          font-size: 20px;
-         position: relative;
         
         
 }
@@ -15,7 +13,6 @@
 .paragraph2 {
     display: inline-block;
     width: 450px;
-    height: 650px ;
     border: 2px rgb(154, 149, 149) solid;
     font-size: 20px;
     position: absolute;
@@ -25,7 +22,6 @@
 .paragraph3 {
     display: inline-block;
     width: 450px;
-    height: 650px ;
     border: 2px rgb(154, 149, 149) solid;
     font-size: 20px;
     position: absolute;
@@ -48,6 +44,8 @@ footer {
     padding: 10px 10px;
     background-color: rgb(68, 66, 66);
     color: white;
+    position: absolute;
+    bottom: 0px;
 }
 
 .text {
