@@ -1,53 +1,67 @@
 .all {
-    margin: 10px;
+    margin: .625rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .paragraph1 {
          display: inline-block;
-         width: 450px;
-         border: 2px rgb(154, 149, 149) solid;
-         font-size: 20px;
-        
+         width: 28.125rem;
+         border: .125rem rgb(154, 149, 149) solid;
+         font-size: 1.25rem;
+         position: relative;
         
 }
 
 .paragraph2 {
     display: inline-block;
-    width: 450px;
-    border: 2px rgb(154, 149, 149) solid;
-    font-size: 20px;
+    width: 28.125rem;
+    border: .125rem rgb(154, 149, 149) solid;
+    font-size: 1.25rem;
     position: absolute;
-    left: 500px;
+    left: 31.25rem;
 }
 
 .paragraph3 {
     display: inline-block;
-    width: 450px;
-    border: 2px rgb(154, 149, 149) solid;
-    font-size: 20px;
+    width: 28.125rem;
+    border: .125rem rgb(154, 149, 149) solid;
+    font-size: 1.25rem;
     position: absolute;
-    left: 980px;
+    left: 61.25rem;
    
 }
 
 
 h2 {
-    font-size: 30px;
-    padding: 0px 10px;
+    font-size: 1.875rem;
+    padding: 0rem .625rem;
 }
 
 p {
-    padding-bottom: 66px;
-    padding-left: 10px;
+    padding-bottom: 4.125rem;
+    padding-left: 1.6rem;
 }
 
 footer {
-    padding: 10px 10px;
+    padding: .625rem .625rem;
     background-color: rgb(68, 66, 66);
     color: white;
-    position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
 }
 
 .text {
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
+}
+
+
+@media (max-width:1023px) {
+    .paragraph3 {
+        display: inline-block;
+        width: 21.875rem;
+        border: .0625rem rgb(154, 149, 149) solid;
+        font-size: .9375rem;
+        position: absolute;
+        left: 61.25rem;
+       
+    }
 }

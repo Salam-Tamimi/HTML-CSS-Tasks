@@ -3,15 +3,29 @@
     display: flex;
     flex-direction: row;
     background-color: orange;
-    padding: 8px;
+    padding: 0.5rem;
 
 }
 
 .t {
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 4.375rem;
     align-items: stretch;
-    width: 1000px;
+    width: 62.5rem;
     text-align: center;
+}
+
+@media (max-width: 1023px) {
+    .t {
+        font-size: 3.12rem;
+        width: 43.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .t {
+        font-size: 1.875rem;
+        width: 31.25rem;
+    }
 }
 
